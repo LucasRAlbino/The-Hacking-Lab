@@ -1,3 +1,5 @@
+# The Rust Programming Language
+
 ## Como compilar ?
 
  * rustc script.rs
@@ -143,6 +145,70 @@ fn main() {
 fn nova_Fun({
     println!("Essa é a minha nova função");
 })
+```
+
+### Parameters
+
+ * Adicionar parametros ou argumentos a função
+
+```rust
+fn main (){
+    func(5);
+}
+
+fn func(x: i32){
+    println!("O valor de X é {}");
+}
+```
+
+### Statements and Expressions
+
+* **Statements:** São instruções que tem uma ação e não retornam um valor 
+* **Expressions:** Retornam um valor
+
+### Functions with Return Values
+
+ * Para fazer uma função que retorna algo, é importante declarar o tipo do seu valor, por exemplo
+
+ ```rust
+ fn cinco() -> i32{
+    5
+ }
+
+ fn main(){
+    let x = cinco();
+    println!("O valor de x é {x}");
+ }
+ ```
+
+## Control Flow
+
+### if
+
+* Using if in a let Statement
+
+```rust
+fn main() {
+    let condition = true;
+    let number = if condition { 5 } else { 6 };
+
+    println!("The value of number is: {number}");
+}
+```
+
+### Repetition with Loops
+
+#### Repeating Code with loop
+
+* o `loop` diz ao rust para executar um laço de repetição indefinidamente até que você diga onde parar
+
+```rust
+fn main() {
+    loop {
+        println!("again!");
+    }
+}
+```
 
 ## Links
 - https://doc.rust-lang.org/book/
