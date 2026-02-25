@@ -19,7 +19,7 @@ Bem-vindo ao meu repositório de estudos dedicado à segurança ofensiva. Este e
 ## 🛠️ Tecnologias e Ferramentas Frequentes
 
 * **OS:** Kali Linux / Parrot OS
-* **Linguagens:** Python, Bash, PowerShell, C#
+* **Linguagens:** Python, Rust, Bash, PowerShell
 
 ---
 
@@ -27,3 +27,4 @@ Bem-vindo ao meu repositório de estudos dedicado à segurança ofensiva. Este e
 
 🔄 **Em constante atualização.**
 Este repositório é alimentado conforme avanço nos meus estudos. Se você encontrar algo útil ou tiver uma sugestão, sinta-se à vontade para abrir uma *issue* ou entrar em contato.
+
